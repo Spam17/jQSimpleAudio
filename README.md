@@ -34,13 +34,13 @@ call `<audio>` tag when you need attach a audio to your web page.
 ## How to install it using CDN jsdelivr 
 Paste the following html code into your page: 
 
-`<audio id="audio0" preload="auto" controls>`
-`	<source src="https://img.imgsmail.ru/static.promo/sounds/notifier/bell.mp3"/>`
-`</audio>`
-`<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/spam17/jqsimpleaudio@1.0.1/css/audioplayer.css" />`
-`<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>`
-`<script src="https://cdn.jsdelivr.net/gh/spam17/jqsimpleaudio@1.0.1/js/audioplayer.min.js"></script>`
-`<script>$( function() { $( '#audio0' ).audioPlayer(); } );</script>`
+`<audio id="audio0" preload="auto" controls>`  
+`	<source src="https://img.imgsmail.ru/static.promo/sounds/notifier/bell.mp3"/>`  
+`</audio>`  
+`<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/spam17/jqsimpleaudio@1.0.1/css/audioplayer.css" />`  
+`<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>`  
+`<script src="https://cdn.jsdelivr.net/gh/spam17/jqsimpleaudio@1.0.1/js/audioplayer.min.js"></script>`  
+`<script>$( function() { $( '#audio0' ).audioPlayer(); } );</script>`   
 
 And adjust the display styles you need.
 
