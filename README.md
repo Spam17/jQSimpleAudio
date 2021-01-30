@@ -38,13 +38,12 @@ Paste the following html code into your page:
 <audio id="audio0" preload="auto" controls>
 	<source src="https://img.imgsmail.ru/static.promo/sounds/notifier/bell.mp3"/>
 </audio>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/spam17/jqsimpleaudio@1.0.1/css/audioplayer.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/spam17/jqsimpleaudio@1.0.2/css/audioplayer.min.css" />
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/spam17/jqsimpleaudio@1.0.1/js/audioplayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/spam17/jqsimpleaudio@1.0.2/js/audioplayer.min.js"></script>
 <script>$( function() { $( '#audio0' ).audioPlayer(); } );</script>
 ```
-And adjust the display styles you need.
-
+And adjust page for styles.
 
 <a title="License" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">License</a>  
 
