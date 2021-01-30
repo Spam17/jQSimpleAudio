@@ -1,9 +1,6 @@
 /*
 	AUTHOR: Osvaldas Valutis, www.osvaldas.info
 */
-
-
-
 ;(function( $, window, document, undefined )
 {
 	var isTouch		  = 'ontouchstart' in window,
@@ -18,6 +15,7 @@
 		},
 		canPlayType	  = function( file )
 		{
+			return true;
 			var audioElement = document.createElement( 'audio' );
 			return !!( audioElement.canPlayType && audioElement.canPlayType( 'audio/' + file.split( '.' ).pop().toLowerCase() + ';' ).replace( /no/, '' ) );
 		};
