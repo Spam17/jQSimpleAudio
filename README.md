@@ -3,7 +3,7 @@ A jQuery audio player plugin that is responsive and touch-friendly. The UI is cs
 
 This repo is a redesign of <a title="Osvaldas Valutis' work" href="https://tympanus.net/codrops/2012/12/04/responsive-touch-friendly-audio-player/">Osvaldas Valutis' work</a>  
 
-![AudioPlayer](https://raw.githubusercontent.com/Spam17/jQSimpleAudio/master/img/cover.png)
+![jQSimpleAudio demo image](https://raw.githubusercontent.com/Spam17/jQSimpleAudio/master/img/cover.jpg)
 
 I redesigned the UI to fit morden flat design, you can modify the css(such as color,height,width...) to fit your own website style.  
 
@@ -33,13 +33,14 @@ call `<audio>` tag when you need attach a audio to your web page.
 
 ## How to install it using CDN jsdelivr 
 Paste the following html code into your page: 
-`<audio id="audio0" preload="auto" controls>
-	<source src="https://img.imgsmail.ru/static.promo/sounds/notifier/bell.mp3"/>
-</audio>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/spam17/jqsimpleaudio@1.0.1/css/audioplayer.css" />
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/spam17/jqsimpleaudio@1.0.1/js/audioplayer.min.js"></script>
-<script>$( function() { $( '#audio0' ).audioPlayer(); } );</script>`
+
+`<audio id="audio0" preload="auto" controls>`
+`	<source src="https://img.imgsmail.ru/static.promo/sounds/notifier/bell.mp3"/>`
+`</audio>`
+`<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/spam17/jqsimpleaudio@1.0.1/css/audioplayer.css" />`
+`<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>`
+`<script src="https://cdn.jsdelivr.net/gh/spam17/jqsimpleaudio@1.0.1/js/audioplayer.min.js"></script>`
+`<script>$( function() { $( '#audio0' ).audioPlayer(); } );</script>`
 
 And adjust the display styles you need.
 
